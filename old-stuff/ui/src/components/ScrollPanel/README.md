@@ -1,0 +1,3 @@
+```js
+<ScrollPanel>Hello, 🍕</ScrollPanel>
+```

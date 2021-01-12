@@ -1,0 +1,3 @@
+```js
+<TripleVerticalLayout>Hello, 🍕</TripleVerticalLayout>
+```

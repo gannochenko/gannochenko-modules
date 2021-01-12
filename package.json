@@ -11,6 +11,7 @@
     },
     "private": true,
     "workspaces": [
+        "ui"
     ],
     "husky": {
         "hooks": {

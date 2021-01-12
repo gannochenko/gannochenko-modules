@@ -18,16 +18,14 @@ jobs:
               run: yarn install
             - name: Install peers
               run: yarn run install-peers
-#            - name: Install (package_name)
-#              working-directory: ./packages/package_name
-#              run: yarn install
-#            - name: Install peers (package_name)
-#              working-directory: ./packages/package_name
-#              run: yarn install-peers
-#            - name: Build (package_name)
-#              working-directory: ./packages/package_name
-#              run: yarn build
+            - name: Install (ui)
+              working-directory: ./packages/ui
+              run: yarn install
+            - name: Install peers (ui)
+              working-directory: ./packages/ui
+              run: yarn install-peers
+            - name: Build (ui)
+              working-directory: ./packages/ui
+              run: yarn build
             - name: Publish
               run: yarn multi-semantic-release
-              env:
-                  GITHUB_TOKEN ${{ secrets.CICD_TOKEN }}
