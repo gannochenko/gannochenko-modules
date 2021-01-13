@@ -6,7 +6,7 @@ on:
             - dev
             - master
         paths:
-            - 'packages/ui/**'
+            - 'packages/ui.styled-components/**'
 
 jobs:
     test:
@@ -17,11 +17,11 @@ jobs:
             - name: Install
               run: yarn install
             - name: Install peers
-              run: yarn run install-peers
+              run: yarn install-peers
             - name: Lint
-              run: yarn run lint
+              run: yarn lint
             - name: Test
-              run: yarn run test
+              run: yarn test
             - name: Test visual (install)
               working-directory: ./visual
               run: yarn install
