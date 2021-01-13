@@ -18,14 +18,14 @@ jobs:
               run: yarn install
             - name: Install peers
               run: yarn run install-peers
-            - name: Install (ui)
-              working-directory: ./packages/ui
+            - name: Install (ui.styled-components)
+              working-directory: ./packages/ui.styled-components
               run: yarn install
-            - name: Install peers (ui)
-              working-directory: ./packages/ui
+            - name: Install peers (ui.styled-components)
+              working-directory: ./packages/ui.styled-components
               run: yarn install-peers
-            - name: Build (ui)
-              working-directory: ./packages/ui
+            - name: Build (ui.styled-components)
+              working-directory: ./packages/ui.styled-components
               run: yarn build
             - name: Publish
               run: yarn multi-semantic-release
