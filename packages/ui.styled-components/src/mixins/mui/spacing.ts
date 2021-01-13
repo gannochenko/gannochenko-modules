@@ -1,6 +1,8 @@
 import { ScalarType, StylePropsType } from '../../type';
 
-export const muiSpacing = (value: ScalarType) => ({ theme }: StylePropsType) => {
+export const muiSpacing = (value: ScalarType) => ({
+    theme,
+}: StylePropsType) => {
     if (typeof value === 'string') {
         return value;
     }
