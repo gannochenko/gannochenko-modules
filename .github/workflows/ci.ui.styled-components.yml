@@ -1,4 +1,4 @@
-name: CI
+name: CI.UI.Styled-Components
 
 on:
     pull_request:
