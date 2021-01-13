@@ -1,3 +1,5 @@
+import { css } from 'styled-components';
+
 type Alignment =
     | 'start'
     | 'end'
@@ -10,7 +12,7 @@ type Alignment =
     | 'flex-end'
     | 'center';
 
-const j = (how?: Alignment) => {
+const replaceAlignment = (how?: Alignment) => {
     if (how === 'start' || how === 'left' || how === 'top') {
         return 'flex-start';
     }
@@ -24,25 +26,27 @@ const j = (how?: Alignment) => {
 };
 
 export const contentAlignment = (
-    x?: Alignment,
-    y?: Alignment,
+    alignmentX?: Alignment,
+    alignmentY?: Alignment,
     direction = 'row',
 ) => {
-    x = j(x);
-    y = j(y);
+    const realAlignmentX = replaceAlignment(alignmentX);
+    const realAlignmentY = replaceAlignment(alignmentY);
     if (direction === 'column' || direction === 'col') {
-        return `
+        return css`
             display: flex;
             flex-direction: column;
-            ${y !== null ? `justify-content: ${y};` : ''}
-            ${x !== null ? `align-items: ${x};` : ''}
+            ${realAlignmentY !== null
+                ? `justify-content: ${realAlignmentY};`
+                : ''}
+            ${realAlignmentX !== null ? `align-items: ${realAlignmentX};` : ''}
         `;
     }
 
-    return `
+    return css`
         display: flex;
         flex-direction: row;
-        ${x !== null ? `justify-content: ${x};` : ''}
-        ${y !== null ? `align-items: ${y};` : ''}
+        ${realAlignmentX !== null ? `justify-content: ${realAlignmentX};` : ''}
+        ${realAlignmentY !== null ? `align-items: ${realAlignmentY};` : ''}
     `;
 };

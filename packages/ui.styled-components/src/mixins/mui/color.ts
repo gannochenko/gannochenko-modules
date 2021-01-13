@@ -6,5 +6,5 @@ export const muiColor = (colorTokenName: string) => ({
     const tokenName = `palette.${colorTokenName}`;
     return tokenName in theme.tokenIndex
         ? (theme.tokenIndex[tokenName] as string)
-        : '';
+        : null;
 };

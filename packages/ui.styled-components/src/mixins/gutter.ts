@@ -1,10 +1,6 @@
 import { ScalarType } from '../type';
 
-export const gutter = (
-    x?: ScalarType,
-    y?: ScalarType,
-) => {
-    return `
+export const gutter = (x?: ScalarType, y?: ScalarType) => `
         & > * {
             ${x !== undefined ? `margin-bottom: ${x};` : ''};
             ${y !== undefined ? `margin-right: ${y};` : ''}
@@ -13,4 +9,3 @@ export const gutter = (
         ${x !== undefined ? `margin-bottom: -${x};` : ''}
         ${y !== undefined ? `margin-right: -${y};` : ''}
     `;
-};

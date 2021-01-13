@@ -26,18 +26,21 @@ const getValue = (value?: ScalarType, theme?: ObjectLiteralType) => {
     return value;
 };
 
-const getStyleFor = (property: string, value?: ScalarType, theme?: ObjectLiteralType) =>
-    value !== undefined ? `${property}: ${getValue(value, theme)};` : '';
+const getStyleFor = (
+    property: string,
+    value?: ScalarType,
+    theme?: ObjectLiteralType,
+) => (value !== undefined ? `${property}: ${getValue(value, theme)};` : '');
 
 export const margin = ({
-    margin,
+    margin: allMargin,
     marginTop,
     marginBottom,
     marginLeft,
     marginRight,
     theme,
 }: MarginPropsType) => css`
-    ${getStyleFor('margin', margin, theme)};
+    ${getStyleFor('margin', allMargin, theme)};
     ${getStyleFor('margin-top', marginTop, theme)};
     ${getStyleFor('margin-bottom', marginBottom, theme)};
     ${getStyleFor('margin-left', marginLeft, theme)};
