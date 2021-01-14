@@ -1,3 +1,3 @@
 export * from './mixins';
 
-export const ha = 2;
+export const ha = 3;
