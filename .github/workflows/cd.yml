@@ -16,8 +16,6 @@ jobs:
             - uses: actions/checkout@v2
             - name: Install common
               run: yarn install
-            - name: Install peers
-              run: yarn run install-peers
             - name: Install (ui.styled-components)
               working-directory: ./packages/ui.styled-components
               run: yarn install
