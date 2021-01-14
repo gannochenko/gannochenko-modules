@@ -15,3 +15,4 @@ export const getSelection = () => {
 };
 
 // ololo
+const foo = 'bar';
