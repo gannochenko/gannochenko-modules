@@ -13,7 +13,7 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
             run:
-                working-directory: ./packages/ui.styled-components
+                working-directory: './packages/ui.styled-components'
 
         steps:
             - uses: actions/checkout@v2
