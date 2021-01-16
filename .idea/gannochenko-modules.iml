@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/old-stuff" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui.styled-components/build.cjs" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui.styled-components/build.esm" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>

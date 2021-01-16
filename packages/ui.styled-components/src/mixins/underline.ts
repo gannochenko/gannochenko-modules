@@ -1,8 +1,9 @@
 import { transition } from './transition';
+import { ScalarType } from '../type';
 
 export const underline = (
     mode = 'on-hover',
-    transitionTime = 0,
+    transitionTime: ScalarType = 0,
     thickness = '1px',
     color = 'currentcolor',
 ) => `
