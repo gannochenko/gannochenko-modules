@@ -1,11 +1,12 @@
 import { css } from 'styled-components';
 import { transition } from './transition';
+import { ScalarType } from '../type';
 
 export const backgroundColor = (
     color = 'inherit',
     hoverColor?: string,
     focusColor?: string,
-    transitionTime = 0,
+    transitionTime: ScalarType = 0,
 ) => css`
     background-color: ${color};
     &:hover {
