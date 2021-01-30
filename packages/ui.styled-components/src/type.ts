@@ -4,7 +4,7 @@ export interface ObjectLiteralType<P = any> {
 
 export type ScalarType = string | number;
 
-export type ThemeType = {
+export type MUIThemeType = {
     breakpoints: {
         up: (bp: string) => string;
         down: (bp: string) => string;
@@ -14,7 +14,7 @@ export type ThemeType = {
     tokenIndex: ObjectLiteralType;
 } & ObjectLiteralType;
 
-export type StylePropsType<T = ThemeType> = {
+export type StylePropsType<T = MUIThemeType> = {
     theme: T;
 };
 
