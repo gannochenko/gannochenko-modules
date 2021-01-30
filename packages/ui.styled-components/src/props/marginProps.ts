@@ -1,7 +1,6 @@
 import { css } from 'styled-components';
-import { ObjectLiteralType } from '../type';
+import { ObjectLiteralType, ScalarType } from '../type';
 
-export type ScalarType = string | number;
 export type MarginPropsType = Partial<{
     margin: ScalarType;
     marginTop: ScalarType;
@@ -32,7 +31,7 @@ const getStyleFor = (
     theme?: ObjectLiteralType,
 ) => (value !== undefined ? `${property}: ${getValue(value, theme)};` : '');
 
-export const margin = ({
+export const marginProps = ({
     margin: allMargin,
     marginTop,
     marginBottom,
