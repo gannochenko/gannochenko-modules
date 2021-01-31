@@ -1,3 +1,10 @@
+## @gannochenko/ui.styled-components [1.0.3](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.2...@gannochenko/ui.styled-components@1.0.3) (2021-01-31)
+
+
+### Bug Fixes
+
+* Renamings [000] ([#17](https://github.com/gannochenko/gannochenko-modules/issues/17)) ([7071ed8](https://github.com/gannochenko/gannochenko-modules/commit/7071ed8ab13c53182589809a7987308dcd9e77f3))
+
 ## @gannochenko/ui.styled-components [1.0.2](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.1...@gannochenko/ui.styled-components@1.0.2) (2021-01-30)
 
 
