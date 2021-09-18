@@ -1,27 +1,20 @@
 const allowedEventProps = {
-    // Clipboard Events
     onCopy: true,
     onCopyCapture: true,
     onCut: true,
     onCutCapture: true,
     onPaste: true,
     onPasteCapture: true,
-
-    // Composition Events
     onCompositionEnd: true,
     onCompositionEndCapture: true,
     onCompositionStart: true,
     onCompositionStartCapture: true,
     onCompositionUpdate: true,
     onCompositionUpdateCapture: true,
-
-    // Focus Events
     onFocus: true,
     onFocusCapture: true,
     onBlur: true,
     onBlurCapture: true,
-
-    // Form Events
     onChange: true,
     onChangeCapture: true,
     onBeforeInput: true,
@@ -34,22 +27,16 @@ const allowedEventProps = {
     onSubmitCapture: true,
     onInvalid: true,
     onInvalidCapture: true,
-
-    // Image Events
     onLoad: true,
     onLoadCapture: true,
-    onError: true, // also a Media Event
-    onErrorCapture: true, // also a Media Event
-
-    // Keyboard Events
+    onError: true,
+    onErrorCapture: true,
     onKeyDown: true,
     onKeyDownCapture: true,
     onKeyPress: true,
     onKeyPressCapture: true,
     onKeyUp: true,
     onKeyUpCapture: true,
-
-    // Media Events
     onAbort: true,
     onAbortCapture: true,
     onCanPlay: true,
@@ -94,8 +81,6 @@ const allowedEventProps = {
     onVolumeChangeCapture: true,
     onWaiting: true,
     onWaitingCapture: true,
-
-    // MouseEvents
     onAuxClick: true,
     onAuxClickCapture: true,
     onClick: true,
@@ -132,12 +117,8 @@ const allowedEventProps = {
     onMouseOverCapture: true,
     onMouseUp: true,
     onMouseUpCapture: true,
-
-    // // Selection Events
     onSelect: true,
     onSelectCapture: true,
-
-    // Touch Events
     onTouchCancel: true,
     onTouchCancelCapture: true,
     onTouchEnd: true,
@@ -146,8 +127,6 @@ const allowedEventProps = {
     onTouchMoveCapture: true,
     onTouchStart: true,
     onTouchStartCapture: true,
-
-    // Pointer Events
     onPointerDown: true,
     onPointerDownCapture: true,
     onPointerMove: true,
@@ -168,24 +147,16 @@ const allowedEventProps = {
     onGotPointerCaptureCapture: true,
     onLostPointerCapture: true,
     onLostPointerCaptureCapture: true,
-
-    // UI Events
     onScroll: true,
     onScrollCapture: true,
-
-    // Wheel Events
     onWheel: true,
     onWheelCapture: true,
-
-    // Animation Events
     onAnimationStart: true,
     onAnimationStartCapture: true,
     onAnimationEnd: true,
     onAnimationEndCapture: true,
     onAnimationIteration: true,
     onAnimationIterationCapture: true,
-
-    // Transition Events
     onTransitionEnd: true,
     onTransitionEndCapture: true,
 };
