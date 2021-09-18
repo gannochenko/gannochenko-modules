@@ -1,3 +1,10 @@
+## @gannochenko/ui.styled-components [1.0.6](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.5...@gannochenko/ui.styled-components@1.0.6) (2021-09-18)
+
+
+### Bug Fixes
+
+* getPropsBlocker ([#24](https://github.com/gannochenko/gannochenko-modules/issues/24)) ([08b7d97](https://github.com/gannochenko/gannochenko-modules/commit/08b7d9792792333a4eda9893cac5dc5a835b1636))
+
 ## @gannochenko/ui.styled-components [1.0.5](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.4...@gannochenko/ui.styled-components@1.0.5) (2021-09-02)
 
 
