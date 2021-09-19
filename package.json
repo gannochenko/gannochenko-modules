@@ -13,7 +13,7 @@
     "private": true,
     "workspaces": [
         "packages/ui.styled-components",
-        "packages/etc"
+        "packages/helpers"
     ],
     "husky": {
         "hooks": {

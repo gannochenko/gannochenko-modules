@@ -14,4 +14,6 @@ export * from './reset';
 export * from './round';
 export * from './textDecoration';
 export * from './underline';
-
+export * from './align';
+export * from './central';
+export * from './rectangle';
