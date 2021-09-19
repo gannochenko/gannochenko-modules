@@ -25,6 +25,15 @@ jobs:
             - name: Build (ui.styled-components)
               working-directory: ./packages/ui.styled-components
               run: yarn build
+            - name: Install (etc)
+              working-directory: ./packages/etc
+              run: yarn install
+            - name: Install peers (etc)
+              working-directory: ./packages/etc
+              run: yarn install-peers
+            - name: Build (etc)
+              working-directory: ./packages/etc
+              run: yarn build
             - name: Publish
               run: yarn multi-semantic-release
               env:
