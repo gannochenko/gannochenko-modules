@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.6...@gannochenko/ui.styled-components@1.1.0) (2021-09-19)
+
+
+### Features
+
+* Etc module ([f502f47](https://github.com/gannochenko/gannochenko-modules/commit/f502f47368576607a43708a397dc9fb7ee48f427))
+* New mixins ([d0157ab](https://github.com/gannochenko/gannochenko-modules/commit/d0157ab499ee198fe9775fc280e7f44de495392a))
+
 ## @gannochenko/ui.styled-components [1.0.6](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.5...@gannochenko/ui.styled-components@1.0.6) (2021-09-18)
 
 
