@@ -1,3 +1,4 @@
+// covert to utc
 export const convertDateLocalToUTC = (date: Date): Date =>
     new Date(
         Date.UTC(
@@ -11,6 +12,7 @@ export const convertDateLocalToUTC = (date: Date): Date =>
         ),
     );
 
+// convert to local
 export const convertDateUTCToLocal = (date: Date): Date =>
     new Date(
         date.getUTCFullYear(),
