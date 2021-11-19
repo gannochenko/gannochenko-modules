@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.1.0...@gannochenko/ui.styled-components@1.2.0) (2021-11-19)
+
+
+### Bug Fixes
+
+* blah blah ([91f3ed9](https://github.com/gannochenko/gannochenko-modules/commit/91f3ed9a4bad8297fb9fe467456f1725c020fba0))
+
+
+### Features
+
+* Size props, padding props ([01628da](https://github.com/gannochenko/gannochenko-modules/commit/01628dae17d40ba4fa1c095cc4ebef0f1113a7ee))
+
 # [1.1.0](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.styled-components@1.0.6...@gannochenko/ui.styled-components@1.1.0) (2021-09-19)
 
 
