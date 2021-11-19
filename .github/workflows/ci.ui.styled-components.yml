@@ -11,9 +11,6 @@ on:
 jobs:
     test:
         runs-on: ubuntu-latest
-        defaults:
-            run:
-                working-directory: './packages/ui.styled-components'
 
         steps:
             - uses: actions/checkout@v2
@@ -21,9 +18,12 @@ jobs:
               run: yarn install
             - name: Install peers
               run: yarn install-peers
+
             - name: Lint
+              working-directory: ./packages/ui.styled-components
               run: yarn lint
             - name: Test
+              working-directory: ./packages/ui.styled-components
               run: yarn test
 #            - name: Test visual (install)
 #              working-directory: ./packages/ui.styled-components/visual
@@ -31,4 +31,5 @@ jobs:
 #            - name: Test visual
 #              run: yarn test:visual:cicd
             - name: Build
+              working-directory: ./packages/ui.styled-components
               run: yarn run build
