@@ -11,6 +11,8 @@
         "multi-semantic-release": "^2.6.0"
     },
     "peerDependencies": {
+        "@emotion/react": ">=11.7.1",
+        "@emotion/styled": ">=11.6.0",
         "react": ">=16.8.0",
         "react-dom": ">=16.8.0",
         "styled-components": ">=5.0.0"
