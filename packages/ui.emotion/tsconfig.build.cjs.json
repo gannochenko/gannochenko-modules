@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./build.cjs/",
+    "types": []
+  },
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "build",
+    "build:esm",
+    "build:cjs",
+    "**/**/*.test.tsx",
+    "**/**/*.story.tsx",
+    "**/**/*.story.ts",
+    "**/**/*.test.ts"
+  ]
+}
