@@ -1,0 +1,35 @@
+name: CI.UI.Emotion
+
+on:
+    pull_request:
+        branches:
+            - dev
+            - master
+        paths:
+            - 'packages/ui.emotion/**'
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install
+              run: yarn install
+            - name: Install peers
+              run: yarn install-peers
+
+            - name: Lint
+              working-directory: ./packages/ui.emotion
+              run: yarn lint
+            - name: Test
+              working-directory: ./packages/ui.emotion
+              run: yarn test
+#            - name: Test visual (install)
+#              working-directory: ./packages/ui.emotion/visual
+#              run: yarn install
+#            - name: Test visual
+#              run: yarn test:visual:cicd
+            - name: Build
+              working-directory: ./packages/ui.emotion
+              run: yarn run build

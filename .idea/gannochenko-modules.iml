@@ -8,6 +8,8 @@
       <excludeFolder url="file://$MODULE_DIR$/packages/ui.styled-components/build.esm" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui.emotion/build.cjs" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ui.emotion/build.esm" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
