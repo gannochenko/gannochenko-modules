@@ -23,6 +23,10 @@ jobs:
               working-directory: ./packages/ui.styled-components
               run: yarn build
 
+            - name: Build (ui.emotion)
+              working-directory: ./packages/ui.emotion
+              run: yarn build
+
             - name: Build (helpers)
               working-directory: ./packages/helpers
               run: yarn build
