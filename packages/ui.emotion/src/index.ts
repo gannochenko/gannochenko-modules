@@ -9,3 +9,5 @@ export type {
     ObjectLiteralType,
     BreakpointNameType,
 } from './type';
+
+export const foo = 1;
