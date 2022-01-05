@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { ObjectLiteralType, ScalarType } from '../type';
+import { ScalarType, StylePropsType } from '../type';
 import { getStyleFor } from './utils';
 
 export type WidthPropsType = Partial<{
@@ -7,16 +7,16 @@ export type WidthPropsType = Partial<{
     maxWidth: ScalarType;
     minWidth: ScalarType;
     wide: boolean;
-    theme: ObjectLiteralType;
-}>;
+}> &
+    StylePropsType;
 
 export type HeightPropsType = Partial<{
     height: ScalarType;
     maxHeight: ScalarType;
     minHeight: ScalarType;
     tall: boolean;
-    theme: ObjectLiteralType;
-}>;
+}> &
+    StylePropsType;
 
 export const widthProps = ({
     width,

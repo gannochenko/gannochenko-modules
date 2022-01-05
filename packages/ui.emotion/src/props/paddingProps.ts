@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { ObjectLiteralType, ScalarType } from '../type';
+import { ScalarType, StylePropsType } from '../type';
 import { getStyleFor } from './utils';
 
 export type PaddingPropsType = Partial<{
@@ -8,8 +8,8 @@ export type PaddingPropsType = Partial<{
     paddingBottom: ScalarType;
     paddingLeft: ScalarType;
     paddingRight: ScalarType;
-    theme: ObjectLiteralType;
-}>;
+}> &
+    StylePropsType;
 
 export const paddingProps = ({
     padding: allPadding,
