@@ -15,7 +15,7 @@ export type MUIThemeType = {
 } & ObjectLiteralType;
 
 export type StylePropsType<T = MUIThemeType> = {
-    theme: T;
+    theme?: T;
 };
 
 export type BreakpointNameType = 'lg' | 'sm' | 'md' | 'xs' | 'xl';
