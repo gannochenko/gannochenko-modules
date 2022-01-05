@@ -1,5 +1,5 @@
 import { css } from '@emotion/react';
-import { ObjectLiteralType, ScalarType } from '../type';
+import { ScalarType, StylePropsType } from '../type';
 import { getStyleFor } from './utils';
 
 export type MarginPropsType = Partial<{
@@ -8,8 +8,8 @@ export type MarginPropsType = Partial<{
     marginBottom: ScalarType;
     marginLeft: ScalarType;
     marginRight: ScalarType;
-    theme: ObjectLiteralType;
-}>;
+}> &
+    StylePropsType;
 
 export const marginProps = ({
     margin: allMargin,
