@@ -10,4 +10,4 @@ export type {
     BreakpointNameType,
 } from './type';
 
-export const bar = 1;
+export const baz = 1;
