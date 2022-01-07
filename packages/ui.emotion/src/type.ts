@@ -10,7 +10,7 @@ export type MUIThemeType = {
         down: (bp: string) => string;
         between: (bp: string, bpe: string) => string;
     };
-    spacing: (value: number) => number;
+    spacing: (value: number) => number | string;
     tokenIndex: ObjectLiteralType;
 } & ObjectLiteralType;
 
