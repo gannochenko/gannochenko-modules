@@ -1,3 +1,10 @@
+## @gannochenko/ui.emotion [1.0.4](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.emotion@1.0.3...@gannochenko/ui.emotion@1.0.4) (2022-01-07)
+
+
+### Bug Fixes
+
+* asdffadsfs ([5ac7729](https://github.com/gannochenko/gannochenko-modules/commit/5ac7729d0fac3f43f2421dbd433f755ccfb6910f))
+
 ## @gannochenko/ui.emotion [1.0.3](https://github.com/gannochenko/gannochenko-modules/compare/@gannochenko/ui.emotion@1.0.2...@gannochenko/ui.emotion@1.0.3) (2022-01-05)
 
 
