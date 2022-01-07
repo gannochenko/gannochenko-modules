@@ -6,5 +6,6 @@ export const muiSpacing =
         if (typeof value === 'string') {
             return value;
         }
-        return `${theme?.spacing(value) ?? '0'}px`;
+
+        return `${theme?.spacing(value) ?? '0'}`;
     };
